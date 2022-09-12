@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "eYou note"
-title_separator          : "-"
+title                    : "eyou note"
+title_separator     : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "eYou 개발 노트"
+name                     : "eyou 개발 노트"
 description         : "이유 개발 노트"
-url                      : "https://eazy-note.github.io"
+url                      : "https://eyou-note.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "eYou"
+  name             : #"Happy Hacking!"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "backend guy >_<br>공부한 것을 기록하는 곳 📝"
+  bio              : "Backend guy"
   location         : #"Republic of Korea"
   email            : #"eoz.json@gmail.com"
   links:
@@ -288,5 +288,8 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
+      show_date: true
+
+date_format: "%Y-%m-%d "
