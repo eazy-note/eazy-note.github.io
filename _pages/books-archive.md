@@ -5,4 +5,5 @@ layout: categories
 permalink: /books/
 author_profile: true
 slide-bar: false
+menu: books
 ---

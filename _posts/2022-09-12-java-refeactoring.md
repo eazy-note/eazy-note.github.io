@@ -1,7 +1,8 @@
 ---
 layout: single
 title : "1장. 리팩토링을 하자"
-categories: 자바로배우는리팩토링입문
+categories: "자바로배우는리팩토링입문_books"
+menu: "books"
 ---
 
 # # 1. 리팩토링
